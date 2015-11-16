@@ -1,0 +1,19 @@
+{
+  "name": "prime_prestudy_03_resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perfidiousscript/angular_resume.git"
+  },
+  "author": "'Sam Moss'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perfidiousscript/angular_resume/issues"
+  },
+  "homepage": "https://github.com/perfidiousscript/angular_resume#readme"
+}
