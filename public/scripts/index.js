@@ -25,6 +25,6 @@ resApp.config(['$routeProvider', function($routeProvider){
             templateUrl: "/routes/references.html"
         }).
         otherwise({
-            redirectTo: '/name.html'
+            redirectTo: '/name'
         })
 }]);
