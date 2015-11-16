@@ -1,9 +1,19 @@
-* {
-	font-family: Oswald, sans-serif;
+@font-face {
+font-family: AbrilFatface-Regular;
+src: local('images/abril-fatface/AbrilFatFace-Regular.ttf');
 }
 
-html {
-	background: url('images/Hoh-Rainforest-1.jpg') no-repeat center center fixed;
+* {
+	font-family: AbrilFatface-Regular, sans-serif;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+	margin: auto auto;
+}
+
+.name{
+	font-size: 156px;
+	margin: 300px 0px;
 }
 
 body{
@@ -31,29 +41,19 @@ h1 {
     margin: 20px 45px;
 }
 
-
-.section h1 {
-	font-family: Oswald, sans-serif;
-}
-
 header {
-    text-align: center;
+	font-size: 40px;
     margin-bottom: 75px;
-    background: url('images/wood_grain_texture_4_by_hyenacub_stock-d3a1cr8.jpg') no-repeat;
     overflow: hidden;
-    border: 2px solid black;
-    border-radius: 8px;
-    padding: 20px;
-    width: 640px;
 }
 
-header a{
+a{
 	text-decoration: none;
-	color: black;
+	color: darkgray;
 }
 
 .active {
-    background-color:#999966;
+    background-color: darkgray;
 }
 
 h2 {
@@ -61,6 +61,13 @@ h2 {
 	text-shadow: 0px 1px 0px rgba(255,255,255,.5);
 }
 
+.top{
+	margin-top: 400px;
+}
+
+.bottom{
+	margin-bottom: 100px;
+}
 
 .title {
 	width: 640px;
@@ -69,7 +76,6 @@ h2 {
 }
 
 .title h1{
-	background: url('images/11554-a-wood-grain-texture-pv.jpg') center center;
 	text-shadow: 0px 1px 0px rgba(255,255,255,.5);
 }
 
@@ -78,7 +84,6 @@ h2 {
 	margin: 30px auto;
 	opacity: 1;
 	text-align: left;
-	background: url('images/apple-birch.jpg') center center;
 	border: 2px solid black;
     border-radius: 8px;
     padding: 20px;
